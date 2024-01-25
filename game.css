@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#container {
+    padding: 10px;
+    background-color: black;
+}
+#playground {
+    border: solid 2px hsl(91, 100%, 50%);
+}
+button {
+    padding: 10px 15px;
+    background: transparent;
+    border: solid 2px #ff0000;
+    color: lime;
+    border-radius: 15px;
+    outline: none;
+}
+button:hover {
+    background-color: #0080ff;
+    color: black;
+    cursor: pointer;
+}
